@@ -13,12 +13,12 @@ export default createGlobalStyle`
 
     :root, html {
         font-size: 62.5%;
-        font-family: serif;
     }
 
     body {
         font-size: 1.6rem;
         font-family: ${({ theme }) => theme.fonts.text};
+        color: ${({ theme }) => theme.colors.black['600']};
     }
 
     h1, h2, h3, h4, h5, h6 {
