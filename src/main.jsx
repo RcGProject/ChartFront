@@ -7,11 +7,9 @@ import CustomRouter from './routes/CustomerRouter';
 import history from './services/history';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  //   <React.StrictMode>
   <CustomRouter history={history}>
     <ThemeProvider theme={theme}>
       <App />
     </ThemeProvider>
-  </CustomRouter>
-  //   </React.StrictMode>,
+  </CustomRouter>,
 );

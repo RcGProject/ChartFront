@@ -1,4 +1,5 @@
 {
+    "editor.rulers": [80, 120],
     "prettier.configPath": "./.prettierrc.cjs",
     "editor.codeActionsOnSave": {
         "source.fixAll.eslint": true,

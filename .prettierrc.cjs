@@ -1,10 +1,8 @@
 module.exports = {
-  "singleQuote": true,
-  "arrowParens": "always",
-  "editorconfig": true,
-  "endOfLine": "lf",
-  "semi": true,
-  "trailingComa": 'all',
-  "printWidth": 79,
-  "tabWidth": 2
+  semi: true,
+  trailingComma: 'all',
+  singleQuote: true,
+  printWidth: 90,
+  tabWidth: 2,
+  endOfLine: 'lf',
 }
