@@ -19,6 +19,14 @@ const theme = {
       300: 'rgba(54, 54, 54, 0.40)',
       200: 'rgba(54, 54, 54, 0.20)',
       100: 'rgba(54, 54, 54, 0.08)',
+      50: 'rgba(54, 54, 54, 0.04)',
+    },
+
+    feedback: {
+      error: '#FF5656',
+      info: '#3FFFFF',
+      warning: '#FF9B26',
+      success: '#49FF7C',
     },
   },
   fonts: {
