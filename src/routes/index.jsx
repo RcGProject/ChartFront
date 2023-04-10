@@ -7,6 +7,7 @@ export default function Router() {
   return (
     // Rota temporária
     <Routes>
+      <Route index path="/welcome" element={<Welcome />} />
       <Route path="/" element={<Home />} />
       <Route path="/welcome" element={<Welcome />} />
     </Routes>
