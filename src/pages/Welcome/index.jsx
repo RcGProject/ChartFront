@@ -21,25 +21,40 @@ function Welcome() {
       <s.Wrapper className="wrapper">
         <s.Ul className="images-container">
           <li className="image">
-            <img src={img1} alt="Fictiona" />
+            <img src={img1} alt="Fictional" />
           </li>
           <li className="image">
-            <img src={img2} alt="Fictiona" />
+            <img src={img2} alt="Fictional" />
           </li>
           <li className="image">
-            <img src={img3} alt="Fictiona" />
+            <img src={img3} alt="Fictional" />
           </li>
           <li className="image">
-            <img src={img2} alt="Fictiona" />
+            <img src={img2} alt="Fictional" />
           </li>
           <li className="image">
-            <img src={img1} alt="Fictiona" />
+            <img src={img1} alt="Fictional" />
           </li>
           <li className="image">
-            <img src={img3} alt="Fictiona" />
+            <img src={img3} alt="Fictional" />
           </li>
           <li className="image">
-            <img src={img1} alt="Fictiona" />
+            <img src={img2} alt="Fictional" />
+          </li>
+          <li className="image">
+            <img src={img1} alt="Fictional" />
+          </li>
+          <li className="image">
+            <img src={img2} alt="Fictional" />
+          </li>
+          <li className="image">
+            <img src={img3} alt="Fictional" />
+          </li>
+          <li className="image">
+            <img src={img2} alt="Fictional" />
+          </li>
+          <li className="image">
+            <img src={img3} alt="Fictional" />
           </li>
         </s.Ul>
       </s.Wrapper>

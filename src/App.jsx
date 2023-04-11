@@ -1,12 +1,15 @@
+/* eslint-disable import/no-unresolved */
 import React from 'react';
+import { useLocation } from 'react-router-dom';
 import Header from './components/Header';
-import GlobalStyles from './styles/global';
+
 import Router from './routes';
 import Main from './components/Main';
 import Footer from './components/Footer';
 
 export default function App() {
-  return (
+  const location = useLocation();
+  return location.pathname !== '/welcome' ? (
     <>
       <Header />
 
@@ -15,8 +18,10 @@ export default function App() {
       </Main>
 
       <Footer />
-
-      <GlobalStyles />
     </>
+  ) : (
+    <Main>
+      <Router />
+    </Main>
   );
 }

@@ -1,6 +1,6 @@
-import React from "react";
-import PropTypes from "prop-types";
-import { Router } from "react-router-dom";
+import React from 'react';
+import PropTypes from 'prop-types';
+import { Router } from 'react-router-dom';
 
 // I must create this CustomRoute because i have can`t use the history with default router.
 
@@ -24,7 +24,7 @@ export default function CustomRouter({ basename, children, history }) {
 }
 
 CustomRouter.defaultProps = {
-  basename: "",
+  basename: '',
   history: {},
 };
 

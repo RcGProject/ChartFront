@@ -63,11 +63,23 @@ export const Wrapper = styled.div`
 `;
 
 export const Ul = styled.ul`
+  @keyframes slide {
+    from {
+      transform: translateX(0);
+    }
+
+    to {
+      transform: translateX(calc(-20rem * 12));
+    }
+  }
+
   display: flex;
   flex-direction: row nowrap;
   align-items: center;
   justify-content: center;
   gap: 2rem;
+
+  animation: slide 60s linear infinite;
 
   .image {
     list-style: none;
@@ -88,7 +100,7 @@ export const Ul = styled.ul`
 
       &:hover {
         transition: 0.4s ease-out;
-        transform: scale(1.04);
+        transform: scale(1.07) rotate(4deg);
       }
     }
   }
